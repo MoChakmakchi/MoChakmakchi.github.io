@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     addMessage(message, true);
     userInput.value = "";
 
-    const response = await fetch("http://localhost:3000/chat", {
+    const response = await fetch("https://6xpmb1vk-3000.asse.devtunnels.ms/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
